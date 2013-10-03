@@ -1,0 +1,73 @@
+
+	
+/*** FORM BLOCK ELEMENTS ***/
+
+	form .error{
+		color: #c00;
+		}
+		
+	form label.error
+		{
+		color: #c00;
+		
+		font-size: 100%;
+		font-weight: bold;
+		font-variant:small-caps;
+		
+		width:100px;
+		display: none;
+
+		/*margin:8px 0px 0px 200px;*/
+		padding:3px 0px 0px 5px;
+		
+		clear:both;
+		}
+		
+
+/*** SUPPORTING CLASSES ***/
+
+	form label.required{
+		background-image:url(images/required_star.gif);
+		background-position:right;
+		background-repeat:no-repeat;
+		}
+	
+	form span.required{
+		padding-right:15px;
+		}
+		
+	form .clean
+		{
+		border:none;
+		}
+		
+	form .info{
+		padding-top:0.5em;
+		font-size:80%;
+		line-height:100%;
+		color:#aaa;
+		}
+		
+	form .indent{
+ 		padding:2px 20px; 
+		width:auto !important;
+		white-space:nowrap;
+		padding-left: 25px !important;
+ 		}
+		
+	form label.disabled{
+		color:#aaa;
+		}
+	
+	form .highlight{
+		background-color:#e2e2e2;
+		}
+	
+	.off{
+		display:none !important;
+		}
+		
+	.clear{
+		clear:both;
+		}
+		

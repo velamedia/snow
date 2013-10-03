@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+	/*background:#eeeeee url(../img/top.jpg) repeat-x;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:0;
+	margin:0;
+	}
+	
+div#wrapper {
+	width:1020px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	}
+	
+div#top {
+	width:100%;
+	float:left;
+	background:url(../img/logo.jpg) no-repeat;
+	height:50px;
+	}
+	
+div#nav {
+	width:100%;
+	float:left;
+	height:60px;
+	}
+	
+div#breadcrumb {
+	width:100%;
+	float:left;
+	height:28px;
+	background:#f4f2f3;
+	margin-top:7px;
+	}
+	
+div#container {
+	width:100%;
+	float:left;
+	
+	}
+
+div#full_page {
+	width:100%;
+	float:left;
+	padding-top:15px;
+	}
+	
+div#left_col {
+	width:100%;
+	float:left;
+	padding-top:15px;
+	}	
+	
+div#right_col {
+	width:30%;
+	float:left;
+	padding-top:15px;
+	}
+	
+div#left_col .icon {
+	width:140px;
+	height:150px;
+	background:#fff;
+	float:left;
+	margin: 0px 45px 35px 50px;
+	position:relative;
+	}
+
+.icon img {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.icon p{
+	text-align: center;
+	font-size: 85%;
+	font-weight: bold;
+	
+	bottom:0px;
+
+}
+	
+div#user {
+	border:1px solid #cccccc;
+	width:98%;
+	background:#fff;
+	float:left;
+	padding:1%;
+}	
+
+div#orders {
+	border:1px solid #cccccc;
+	width:98%;
+	background:#fff;
+	float:left;
+	margin-top:10px;
+	padding:1%;
+}		
+
+.form_input{
+	width: 350px;
+}					
+	
+div#footer {
+	width:100%;
+	float:left;
+	background:url(../img/footer.jpg) repeat-x;
+	height:104px;
+	}	
+
+#footer_left{
+	display: block;
+	margin-top: 20px;
+	margin-left: 140px;
+    color: #9a989d;
+    float: left;
+}	
+
+#footer_right{
+	display: block;
+	margin-top: 20px;
+	margin-right: 140px;
+	float: right;
+    color: #cdc7c7;
+}	
+
+#contact_info{
+	font-weight: bold;
+}
+
+.labels{
+	font-weight: bold;
+}
+
+.pending{
+	background-color: #fbdae8;
+}
+.handled{
+	background-color: #9bfbba;
+}
+
+.tablesorter tr {
+	background-color:#fff;
+}
